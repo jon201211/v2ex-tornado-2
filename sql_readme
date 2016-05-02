@@ -1,0 +1,14 @@
+
+ insert into mysql.user(Host,User,Password) values("localhost","mysql",password("123"));
+
+create database v2ex;
+
+grant all privileges on v2ex.* to mysql@localhost identified by '123';
+
+
+mysql -u mysql -p123 <v2ex.sql 
+
+
+
+
+find . -name "*.pyc" -type f -print -exec rm -rf {} \;

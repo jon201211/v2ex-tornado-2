@@ -1,0 +1,9 @@
+tornado
+python-memcached
+jinja2
+storm
+MySQL-python
+
+python-dateutil
+
+wheezy.captcha
